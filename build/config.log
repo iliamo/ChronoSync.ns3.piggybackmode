@@ -1,0 +1,212 @@
+# project libChronoSync (0.0.1) configured on Tue Jan  7 12:46:45 2014 by
+# waf 1.7.10 (abi 98, python 20705f0 on darwin)
+# using ./waf configure --boost-includes=/opt/local/include --boost-libs=/opt/local/lib
+#
+----------------------------------------
+Setting top to
+/Users/iliamo/ChronoSync.ns3
+----------------------------------------
+Setting out to
+/Users/iliamo/ChronoSync.ns3/build
+----------------------------------------
+Checking for 'g++' (c++ compiler)
+find program=['g++', 'c++'] paths=['/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/opt/local/bin', '/opt/local/sbin', '/opt/local/bin', '/opt/local/sbin', '/opt/local/bin', '/opt/local/sbin', '/Library/Frameworks/Python.framework/Versions/2.7/bin', '/opt/macports/bin', '/opt/macports/sbin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/usr/local/bin', '/opt/X11/bin', '/Users/iliamo/sqllib/bin', '/Users/iliamo/sqllib/adm', '/Users/iliamo/sqllib/misc'] var='CXX' -> '/usr/bin/g++'
+find program=['ar'] paths=['/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/opt/local/bin', '/opt/local/sbin', '/opt/local/bin', '/opt/local/sbin', '/opt/local/bin', '/opt/local/sbin', '/Library/Frameworks/Python.framework/Versions/2.7/bin', '/opt/macports/bin', '/opt/macports/sbin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/usr/local/bin', '/opt/X11/bin', '/Users/iliamo/sqllib/bin', '/Users/iliamo/sqllib/adm', '/Users/iliamo/sqllib/misc'] var='AR' -> '/opt/local/bin/ar'
+/usr/bin/g++
+----------------------------------------
+Checking allowed flags for c++ compiler
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] [32mcxx: build/.conf_check_c72b9e6991dae6abd356d1d5b3a19170/test.cpp -> build/.conf_check_c72b9e6991dae6abd356d1d5b3a19170/testbuild/test.cpp.1.o
+[0m
+['/usr/bin/g++', '-O3', '-DNS3_MODULE=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
+[2/2] [33mcxxprogram: build/.conf_check_c72b9e6991dae6abd356d1d5b3a19170/testbuild/test.cpp.1.o -> build/.conf_check_c72b9e6991dae6abd356d1d5b3a19170/testbuild/testprog
+[0m
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/Users/iliamo/ChronoSync.ns3/build/.conf_check_c72b9e6991dae6abd356d1d5b3a19170/testbuild/testprog']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] [32mcxx: build/.conf_check_4a6655f9e1d4a2082f457991481562c7/test.cpp -> build/.conf_check_4a6655f9e1d4a2082f457991481562c7/testbuild/test.cpp.1.o
+[0m
+['/usr/bin/g++', '-g', '-DNS3_MODULE=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
+[2/2] [33mcxxprogram: build/.conf_check_4a6655f9e1d4a2082f457991481562c7/testbuild/test.cpp.1.o -> build/.conf_check_4a6655f9e1d4a2082f457991481562c7/testbuild/testprog
+[0m
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/Users/iliamo/ChronoSync.ns3/build/.conf_check_4a6655f9e1d4a2082f457991481562c7/testbuild/testprog']
+==>
+
+int main(int argc, char **argv) {
+	(void)argc; (void)argv;
+	return 0;
+}
+
+<==
+[1/2] [32mcxx: build/.conf_check_46bf200d17b5ddb919719a712efcefd9/test.cpp -> build/.conf_check_46bf200d17b5ddb919719a712efcefd9/testbuild/test.cpp.1.o
+[0m
+['/usr/bin/g++', '-I', '-DNS3_MODULE=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
+[2/2] [33mcxxprogram: build/.conf_check_46bf200d17b5ddb919719a712efcefd9/testbuild/test.cpp.1.o -> build/.conf_check_46bf200d17b5ddb919719a712efcefd9/testbuild/testprog
+[0m
+['/usr/bin/g++', 'test.cpp.1.o', '-o', '/Users/iliamo/ChronoSync.ns3/build/.conf_check_46bf200d17b5ddb919719a712efcefd9/testbuild/testprog']
+-O3 -g -I
+----------------------------------------
+Checking for program pkg-config
+/usr/local/ndn/bin/pkg-config
+find program=['pkg-config'] paths=['/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/usr/local/ndn/bin', '/usr/local/ndn/sbin', '/opt/local/bin', '/opt/local/sbin', '/opt/local/bin', '/opt/local/sbin', '/opt/local/bin', '/opt/local/sbin', '/Library/Frameworks/Python.framework/Versions/2.7/bin', '/opt/macports/bin', '/opt/macports/sbin', '/usr/bin', '/bin', '/usr/sbin', '/sbin', '/usr/local/bin', '/opt/X11/bin', '/Users/iliamo/sqllib/bin', '/Users/iliamo/sqllib/adm', '/Users/iliamo/sqllib/misc'] var='PKGCONFIG' -> '/usr/local/ndn/bin/pkg-config'
+----------------------------------------
+Checking for 'openssl'
+['/usr/local/ndn/bin/pkg-config', '--cflags', '--libs', 'openssl']
+out: -L/usr/lib -lssl -lcrypto -lz  
+
+yes
+------------------------------------------
+Checking for pkg-config version >= '0.0.0'
+['/usr/local/ndn/bin/pkg-config', '--atleast-pkgconfig-version=0.0.0']
+yes
+------------------------------------------
+Checking for ns3-ndnSIM
+['/usr/local/ndn/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-ndnSIM-optimized']
+out: -I/usr/local/include/ns3-dev -lns3-dev-ndnSIM-optimized -lns3-dev-visualizer-optimized -lns3-dev-internet-optimized -lns3-dev-bridge-optimized -lns3-dev-wifi-optimized -lns3-dev-propagation-optimized -lns3-dev-point-to-point-optimized -lns3-dev-mpi-optimized -lns3-dev-topology-read-optimized -lns3-dev-mobility-optimized -lns3-dev-network-optimized -L/usr/local/lib -lns3-dev-core-optimized  
+
+yes
+------------------------------------------
+Checking for ns3-core
+['/usr/local/ndn/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-core-optimized']
+out: -I/usr/local/include/ns3-dev -L/usr/local/lib -lns3-dev-core-optimized  
+
+yes
+------------------------------------------
+Checking for ns3-network
+['/usr/local/ndn/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-network-optimized']
+out: -I/usr/local/include/ns3-dev -lns3-dev-network-optimized -L/usr/local/lib -lns3-dev-core-optimized  
+
+yes
+------------------------------------------
+Checking for ns3-internet
+['/usr/local/ndn/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-internet-optimized']
+out: -I/usr/local/include/ns3-dev -lns3-dev-internet-optimized -lns3-dev-bridge-optimized -lns3-dev-mpi-optimized -lns3-dev-network-optimized -L/usr/local/lib -lns3-dev-core-optimized  
+
+yes
+------------------------------------------
+Checking for ns3-point-to-point
+['/usr/local/ndn/bin/pkg-config', '--cflags', '--libs', 'libns3-dev-point-to-point-optimized']
+out: -I/usr/local/include/ns3-dev -lns3-dev-point-to-point-optimized -lns3-dev-mpi-optimized -lns3-dev-network-optimized -L/usr/local/lib -lns3-dev-core-optimized  
+
+yes
+------------------------------------------
+Checking boost includes
+1_55
+------------------------------------------
+Checking boost libs
+Found the boost path in /opt/local/lib with the libraries:
+    /opt/local/lib/libboost_atomic-mt.a
+    /opt/local/lib/libboost_atomic-mt.dylib
+    /opt/local/lib/libboost_chrono-mt.a
+    /opt/local/lib/libboost_chrono-mt.dylib
+    /opt/local/lib/libboost_context-mt.a
+    /opt/local/lib/libboost_context-mt.dylib
+    /opt/local/lib/libboost_coroutine-mt.a
+    /opt/local/lib/libboost_coroutine-mt.dylib
+    /opt/local/lib/libboost_date_time-mt.a
+    /opt/local/lib/libboost_date_time-mt.dylib
+    /opt/local/lib/libboost_exception-mt.a
+    /opt/local/lib/libboost_filesystem-mt.a
+    /opt/local/lib/libboost_filesystem-mt.dylib
+    /opt/local/lib/libboost_graph-mt.a
+    /opt/local/lib/libboost_graph-mt.dylib
+    /opt/local/lib/libboost_iostreams-mt.a
+    /opt/local/lib/libboost_iostreams-mt.dylib
+    /opt/local/lib/libboost_locale-mt.a
+    /opt/local/lib/libboost_locale-mt.dylib
+    /opt/local/lib/libboost_log-mt.a
+    /opt/local/lib/libboost_log-mt.dylib
+    /opt/local/lib/libboost_log_setup-mt.a
+    /opt/local/lib/libboost_log_setup-mt.dylib
+    /opt/local/lib/libboost_math_c99-mt.a
+    /opt/local/lib/libboost_math_c99-mt.dylib
+    /opt/local/lib/libboost_math_c99f-mt.a
+    /opt/local/lib/libboost_math_c99f-mt.dylib
+    /opt/local/lib/libboost_math_c99l-mt.a
+    /opt/local/lib/libboost_math_c99l-mt.dylib
+    /opt/local/lib/libboost_math_tr1-mt.a
+    /opt/local/lib/libboost_math_tr1-mt.dylib
+    /opt/local/lib/libboost_math_tr1f-mt.a
+    /opt/local/lib/libboost_math_tr1f-mt.dylib
+    /opt/local/lib/libboost_math_tr1l-mt.a
+    /opt/local/lib/libboost_math_tr1l-mt.dylib
+    /opt/local/lib/libboost_prg_exec_monitor-mt.a
+    /opt/local/lib/libboost_prg_exec_monitor-mt.dylib
+    /opt/local/lib/libboost_program_options-mt.a
+    /opt/local/lib/libboost_program_options-mt.dylib
+    /opt/local/lib/libboost_python-mt.a
+    /opt/local/lib/libboost_python-mt.dylib
+    /opt/local/lib/libboost_random-mt.a
+    /opt/local/lib/libboost_random-mt.dylib
+    /opt/local/lib/libboost_regex-mt.a
+    /opt/local/lib/libboost_regex-mt.dylib
+    /opt/local/lib/libboost_serialization-mt.a
+    /opt/local/lib/libboost_serialization-mt.dylib
+    /opt/local/lib/libboost_signals-mt.a
+    /opt/local/lib/libboost_signals-mt.dylib
+    /opt/local/lib/libboost_system-mt.a
+    /opt/local/lib/libboost_system-mt.dylib
+    /opt/local/lib/libboost_test_exec_monitor-mt.a
+    /opt/local/lib/libboost_thread-mt.a
+    /opt/local/lib/libboost_thread-mt.dylib
+    /opt/local/lib/libboost_timer-mt.a
+    /opt/local/lib/libboost_timer-mt.dylib
+    /opt/local/lib/libboost_unit_test_framework-mt.a
+    /opt/local/lib/libboost_unit_test_framework-mt.dylib
+    /opt/local/lib/libboost_wave-mt.a
+    /opt/local/lib/libboost_wave-mt.dylib
+    /opt/local/lib/libboost_wserialization-mt.a
+    /opt/local/lib/libboost_wserialization-mt.dylib
+Trying pattern boost_system(-xgcc[0-9]{0,3})+(-1_55)+
+Trying pattern boost_system(-1_55)+
+Trying pattern boost_system(-1_55)+
+Trying pattern boost_system(-xgcc[0-9]{0,3})+
+Trying pattern boost_system
+Found boost lib libboost_system-mt.a
+Trying pattern boost_iostreams(-xgcc[0-9]{0,3})+(-1_55)+
+Trying pattern boost_iostreams(-1_55)+
+Trying pattern boost_iostreams(-1_55)+
+Trying pattern boost_iostreams(-xgcc[0-9]{0,3})+
+Trying pattern boost_iostreams
+Found boost lib libboost_iostreams-mt.a
+ok
+------------------------------------------
+Checking for boost linkage
+==>
+#include <boost/system/error_code.hpp>
+int main() { boost::system::error_code c; }
+<==
+[1/2] [32mcxx: build/.conf_check_968fbcee789046a8c143bb4a6e302895/test.cpp -> build/.conf_check_968fbcee789046a8c143bb4a6e302895/testbuild/test.cpp.1.o
+[0m
+['/usr/bin/g++', '-O3', '-g', '-I', '-I/opt/local/include', '-DNS3_MODULE=1', '-DHAVE_SSL=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_POINT_TO_POINT=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
+err: ../test.cpp:1:10: fatal error: 'boost/system/error_code.hpp' file not found
+#include <boost/system/error_code.hpp>
+         ^
+1 error generated.
+
+from /Users/iliamo/ChronoSync.ns3: Test does not build: Traceback (most recent call last):
+  File "/Users/iliamo/ChronoSync.ns3/.waf-1.7.10-5941bd303cc0187a7c1b55a94964b18a/waflib/Tools/c_config.py", line 459, in run_c_code
+    bld.compile()
+  File "/Users/iliamo/ChronoSync.ns3/.waf-1.7.10-5941bd303cc0187a7c1b55a94964b18a/waflib/Build.py", line 190, in compile
+    raise Errors.BuildError(self.producer.error)
+BuildError: Build failed
+ -> task in 'testprog' failed (exit status 1): 
+	{task 4519721616: cxx test.cpp -> test.cpp.1.o}
+['/usr/bin/g++', '-O3', '-g', '-I', '-I/opt/local/include', '-DNS3_MODULE=1', '-DHAVE_SSL=1', '-DHAVE_NS3_NDNSIM=1', '-DHAVE_NS3_CORE=1', '-DHAVE_NS3_NETWORK=1', '-DHAVE_NS3_INTERNET=1', '-DHAVE_NS3_POINT_TO_POINT=1', '../test.cpp', '-c', '-o', 'test.cpp.1.o']
+
+from /Users/iliamo/ChronoSync.ns3: The configuration failed
+Could not link against boost libraries using supplied options
+from /Users/iliamo/ChronoSync.ns3: The configuration failed

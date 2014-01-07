@@ -1,0 +1,10 @@
+prefix=@PREFIX@
+libdir=@LIBDIR@
+includedir=@INCLUDEDIR@
+
+Name: ChronoSync.ns3
+Description: ChronoSync.ns3 library
+Version: @VERSION@
+Libs: -L${libdir} -lChronoSync.ns3
+Cflags: -I${includedir}
+
