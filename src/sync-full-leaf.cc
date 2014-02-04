@@ -54,4 +54,11 @@ FullLeaf::setSeq (const SeqNo &seq)
   updateDigest ();
 }
 
+void
+FullLeaf::setWireData(std::string wireData)
+{
+  //m_wireData = wireData;
+}
+
+
 } // Sync

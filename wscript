@@ -40,7 +40,7 @@ def configure(conf):
         conf.fatal ("Cannot find SSL libraries")
 
     conf.check_ns3_modules(REQUIRED_NS3_MODULES, mandatory = True)
-    conf.check_boost(lib='system iostreams')
+    #conf.check_boost(lib='system iostreams’)
     conf.define ('NS3_LOG_ENABLE', 1)
 
     conf.load('protoc')
